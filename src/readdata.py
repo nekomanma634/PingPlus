@@ -26,9 +26,9 @@ def SmpGra(x, y):
     plt.plot(x, y)
 
     # グラフのタイトルと軸ラベル
-    plt.title("Time Ping")
-    plt.xlabel("X-time[s]")
-    plt.ylabel("Y-ping[ms]")
+    plt.title("Latency Graph")
+    plt.xlabel("time[s]")
+    plt.ylabel("ping[ms]")
 
     # グラフを表示
     plt.show()
