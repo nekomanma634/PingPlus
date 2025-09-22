@@ -2,7 +2,7 @@
 ---
 PingPlusはpingコマンドを使いやすくしたい,という意図のもと作成されました.  
 ### 使用方法
-PingPlusは二つのコードで構成されていて,ping.pyとreaddata.pyによって光瀬されています.  
+PingPlusは二つのコードで構成されていて,ping.pyとreaddata.pyによって構成されています.  
 
 ping.pyは特定のアドレスにICMPエコー応答を用いて応答時間と時刻を記録します.  
 readdata.pyは記録されたデータをグラフとして表示します.
