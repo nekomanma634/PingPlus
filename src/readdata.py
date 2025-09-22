@@ -34,12 +34,12 @@ def SmpGra(x, y):
     plt.show()
 
 if __name__ == "__main__":
-    current_dir = Path('./data') # pathの指定
+    current_dir = Path('../data') # pathの指定
     for item in current_dir.iterdir():
         print(item)
 
     print("どのファイルを読み込みますか. 例_result1.txt")
-    filepath = "./data/"
+    filepath = "../data/"
     filepath += input()
 
     GetFileData(filepath)

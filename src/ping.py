@@ -31,12 +31,12 @@ def GetPingData(count, filepath, ip):
             file.write(f"{ping_with_ping3(ip):.1f}\n")                                                      # ping[ms]
 
 if __name__ == "__main__":
-    current_dir = Path('./data') # pathの指定
+    current_dir = Path('../data') # pathの指定
     for item in current_dir.iterdir():
         print(item)
 
     print("どのファイルにデータを保存しますか.(ファイルが存在しない場合は作成されます.) 例_result1.txt")
-    filepath = "./data/"
+    filepath = "../data/"
     filepath += input()
     print("アドレスを指定してください.")
     ip = input()
